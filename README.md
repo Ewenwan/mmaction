@@ -1,4 +1,13 @@
+
 # MMAction
+
+全面支持视频动作分析的各种任务，包括动作识别（action recognition）、时域动作检测（temporal action detection）以及时空动作检测（spatial-temporal action detection）。
+
+支持多种流行的数据集，包括 Kinetics、THUMOS、UCF101、ActivityNet、Something-Something、以及 AVA 等。
+
+已实现多种动作分析算法框架，包括 TSN、I3D、SSN、以及新的 spatial-temporal action detection 方法。MMAction 还通过 Model Zoo 提供了多个预训练模型，以及它们在不同数据集上的性能指标。
+
+采用高度模块化设计。用户可以根据需要对不同模块，比如 backbone 网络、采样方案等等进行灵活重组，以满足不同的应用需要。
 
 ## Introduction
 MMAction is an open source toolbox for action understanding based on PyTorch.
